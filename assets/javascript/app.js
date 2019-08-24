@@ -68,7 +68,8 @@ function startGame() {
             $(".game-section").append("<input type='radio' name='q" + i + "' value='" + questionArray[i].answers[i2] + "''>" + questionArray[i].answers[i2]);
         }
     }
-
+    
+    $(".game-section").append("<div>");
     $(".game-section").append("<button class='btn' value='done'>Done</button>");
 }
 
